@@ -57,7 +57,7 @@ schedule_profile_entries:
             weight:     7
         -   queue:      7
             algorithm:  strict
-            weight:     0
+            weight:     1
 
 queue_profile_entries:
         -   queue:          0

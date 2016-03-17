@@ -39,25 +39,25 @@ schedule_profile_entries:
             weight:     1
         -   queue:      1
             algorithm:  dwrr
-            weight:     2
+            weight:     1
         -   queue:      2
             algorithm:  dwrr
-            weight:     3
+            weight:     1
         -   queue:      3
             algorithm:  dwrr
-            weight:     4
+            weight:     1
         -   queue:      4
             algorithm:  dwrr
-            weight:     5
+            weight:     1
         -   queue:      5
             algorithm:  dwrr
-            weight:     6
+            weight:     1
         -   queue:      6
             algorithm:  dwrr
-            weight:     7
+            weight:     1
         -   queue:      7
-            algorithm:  strict
-            weight:     0
+            algorithm:  dwrr
+            weight:     1
 
 queue_profile_entries:
         -   queue:          0
