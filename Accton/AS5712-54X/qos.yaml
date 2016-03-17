@@ -30,30 +30,30 @@ qos_info:
 #    -   name:       default
 #        entries:
 #        -   queue:      0
-#            algorithm:  wrr
+#            algorithm:  dwrr
 #     ...
 #
 schedule_profile_entries:
         -   queue:      0
-            algorithm:  wrr
+            algorithm:  dwrr
             weight:     1
         -   queue:      1
-            algorithm:  wrr
+            algorithm:  dwrr
             weight:     2
         -   queue:      2
-            algorithm:  wrr
+            algorithm:  dwrr
             weight:     3
         -   queue:      3
-            algorithm:  wrr
+            algorithm:  dwrr
             weight:     4
         -   queue:      4
-            algorithm:  wrr
+            algorithm:  dwrr
             weight:     5
         -   queue:      5
-            algorithm:  wrr
+            algorithm:  dwrr
             weight:     6
         -   queue:      6
-            algorithm:  wrr
+            algorithm:  dwrr
             weight:     7
         -   queue:      7
             algorithm:  strict
