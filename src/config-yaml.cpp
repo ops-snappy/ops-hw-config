@@ -902,7 +902,7 @@ static void operator >> (const YAML::Node &node, YamlScheduleProfileEntry &entry
                 << entry.algorithm << std::endl;
     }
 
-    /* Only check for wieght if "dwrr" algorithm */
+    /* Only check for weight if "dwrr" algorithm */
     if (strncmp(entry.algorithm, "dwrr", QOS_MAX_STRING_LENGTH) == 0) {
         node["weight"] >> str;
         entry.weight = strtol(str.c_str(), 0, 0);
