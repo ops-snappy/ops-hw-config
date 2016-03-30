@@ -65,4 +65,6 @@ install(FILES ${CMAKE_BINARY_DIR}/ops-config-yaml.pc DESTINATION lib/pkgconfig)
 install(FILES ${INCL_DIR}/config-yaml.h ${INCL_DIR}/i2c.h
 	DESTINATION include)
 
+install(DIRECTORY Accton Generic-x86 DESTINATION ../etc/openswitch/platform/)
+      
 add_subdirectory(tests)
