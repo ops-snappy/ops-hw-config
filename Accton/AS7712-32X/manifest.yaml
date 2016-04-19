@@ -1,4 +1,4 @@
-# Copyright (C) 2014-2015 Accton Technology Corporation
+# Copyright (C) 2014-2016 Accton Technology Corporation
 # All Rights Reserved.
 #
 #    Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -13,21 +13,21 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 #
-#  Hardward Description Manifest File for Accton 7512 Switch.
+#  Hardward Description Manifest File for Accton 7712 Switch.
 #  Based on the AS6712 description file.
 
 # The manifest file (this file) is the one required file for a subsystem
 # and must be named "manifest.yaml".
 
 manufacturer:    Accton
-product_name:    7512-32X
+product_name:    7712-32X
 version:         '1'
 
 subsystem_info: |
-    The Accton AS7512_32X OCP compliant whitebox switch has the
+    The Accton AS7712_32X OCP compliant whitebox switch has the
     following devices...
     32x100G QSFP28 ports, 6 fans, 2 power supplies,
-    leds for diagnostics and location, and 3 thermal sensors.
+    leds for diagnostics and location, and 4 thermal sensors.
 
 # Each hw description file must be listed below else it won't be processed.
 # If a file is listed, and isn't present, it is considered an error.
